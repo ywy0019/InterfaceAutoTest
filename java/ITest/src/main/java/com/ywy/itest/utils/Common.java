@@ -26,10 +26,10 @@ import okhttp3.Response;
 
 public class Common {
 	private static OkHttpClient client = new OkHttpClient();
-	private static String url = "https://iserver.supermap.io/iserver/services/";
-	private static String sendmail = "3284478780@qq.com";
+	private static String url = "https://*.*.*/iserver/services/";
+	private static String sendmail = "send@qq.com";
 	private static String sendmail_psd = "nalghmmcdbgbchhi";
-	private static String resivmail = "503047117@qq.com";
+	private static String resivmail = "resive@qq.com";
 
 	public static String get(String req_url) {
 		Request req = new Request.Builder().url(url + req_url).get().addHeader("Cache-Control", "no-cache").build();
