@@ -1,4 +1,4 @@
-package com.auto.test.ITest;
+package com.ywy.itest;
 
 /**
  * Hello world!
